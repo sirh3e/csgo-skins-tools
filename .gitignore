@@ -1,2 +1,5 @@
 .idea/
 Cargo.lock
+tools/*/target/
+bin/
+generated/
