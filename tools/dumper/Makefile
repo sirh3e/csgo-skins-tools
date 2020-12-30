@@ -1,7 +1,5 @@
-APP		:= dumper
-CARGO	:= cargo
-
-.PHONY: run
+APP			:= dumper
+CARGO		:= cargo
 
 .PHONY: run
 run: test
@@ -16,7 +14,7 @@ test: fmt
 	$(CARGO) $@
 
 .PHONY: fmt
-fmt: clean
+fmt:
 	$(CARGO) $@
 
 .PHONY: clean
