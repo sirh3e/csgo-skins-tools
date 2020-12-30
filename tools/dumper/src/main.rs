@@ -24,7 +24,7 @@ impl Args {
 }
 
 fn main() {
-    let matches = App::new("Map")
+    let matches = App::new("dumper")
         .version("0.1.0")
         .author("sirh3e <sirh3e@prtonamil.com>")
         .about("Does awesome things")
